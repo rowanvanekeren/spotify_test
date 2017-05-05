@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('test');
 });
+
+//Route::get('/callback', 'Controller@testcURL');
+Route::get('/logtest', 'Controller@loginUsr');
+Route::get('/callback', 'Controller@testSocialite');
+Route::get('/redirect', 'Controller@redTest');
+Route::get('/logouttest', 'Controller@deAuthorize');

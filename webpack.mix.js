@@ -13,7 +13,6 @@ const { mix } = require('laravel-mix');
 mix.scripts([
     'resources/assets/js/angular.min.js',
     'resources/assets/js/angular-route.min.js'
-
 ], 'public/js/test.js');
 mix.scripts([
     'resources/assets/js/testspotify.js'
